@@ -1,0 +1,29 @@
+//Montserrat
+@font-face {
+    font-family: 'Montserrat';
+    src:
+            url('../fonts/Montserrat/Montserrat-Regular.woff') format('woff'),
+            url('../fonts/Montserrat/Montserrat-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src:
+            url('../fonts/Montserrat/Montserrat-Black.woff') format('woff'),
+            url('../fonts/Montserrat/Montserrat-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+//Calama
+@font-face {
+    font-family: 'Calama';
+    src:
+            url('../fonts/Calama/Calama-Regular.woff') format('woff'),
+            url('../fonts/Calama/Calama-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}

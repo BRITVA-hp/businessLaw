@@ -1,0 +1,66 @@
+.menu
+  position: fixed
+  z-index: 198
+  left: 0
+  right: 0
+  top: 0
+  bottom: 0
+  display: flex
+  align-items: flex-start
+  justify-content: center
+  background: linear-gradient(0deg, rgba(0, 17, 37, 0.4), rgba(0, 17, 37, 0.4))
+  backdrop-filter: blur(10px)
+  opacity: 0
+  visibility: hidden
+  transition: 0.3s
+  overflow: auto
+  &--active
+    display: none
+    opacity: 1
+    visibility: visible
+    .menu__container
+      transform: none
+  &__container
+    width: 100%
+    display: flex
+    align-items: flex-start
+    justify-content: center
+    border-radius: 0 0 15px 15px
+    background: #E5E5E5
+    transform: translateY(-100%)
+    transition: 0.3s
+  &__dialog
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 100%
+    max-width: 830px
+    margin: 0 auto
+    padding: 40px 20px 70px
+  &__nav
+    display: flex
+    gap: 20px
+  &__link
+    font-size: 18px
+    color: #303030
+    text-decoration: none
+    padding-right: 27px
+    position: relative
+    &:last-child
+      padding: 0
+      &::after
+        display: none
+    &::after
+      content: ''
+      position: absolute
+      top: 2px
+      right: 0
+      transform-origin: right top
+      transform: rotate(15deg)
+      height: 18px
+      width: 1px
+      background: #303030
+    &:hover
+      text-decoration: underline
+  &__close
+    cursor: pointer

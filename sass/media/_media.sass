@@ -1,0 +1,38 @@
+
+
+@import "1440"
+
+@media screen and (max-width: 1200px)
+  .main
+    &__wrap
+      padding: 150px 10px 30px
+
+@import "991"
+
+@media screen and (max-width: 767px)
+  body
+    background: url('../img/bgLC.png') no-repeat left 200px, url('../img/bgRC.png') no-repeat right 600px, #EEE
+
+  .main
+    &__title
+      text-align: center
+    &__subtitle
+      text-align: center
+    &__button
+      display: block
+      margin: 0 auto 22px
+    &__ul
+      max-width: 335px
+      margin: auto
+    &__wrap
+      padding: 100px 10px 270px
+      background: url("../img/main/bgM.png") no-repeat right bottom, url("../img/main/logo.png") no-repeat 100px calc(100% - 50px)
+
+@media screen and (max-width: 575px)
+  body
+    background: url('../img/bgLC.png') no-repeat left 800px, url('../img/bgRC.png') no-repeat right 800px, #EEE
+
+  .main
+    &__wrap
+      padding: 100px 10px 270px
+      background: url("../img/main/bgM.png") no-repeat right bottom, url("../img/main/logo.png") no-repeat left calc(100% - 50px)
