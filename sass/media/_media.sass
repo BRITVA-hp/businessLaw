@@ -13,7 +13,18 @@
   body
     background: url('../img/bgLC.png') no-repeat left 200px, url('../img/bgRC.png') no-repeat right 600px, #EEE
 
+  .we
+    &__img
+      img
+        max-width: 100%
+    &__title
+      text-align: center
+    &__row
+      flex-direction: column
+      align-items: center
+
   .main
+    padding: 0 10px
     &__title
       text-align: center
     &__subtitle
@@ -30,9 +41,20 @@
 
 @media screen and (max-width: 575px)
   body
-    background: url('../img/bgLC.png') no-repeat left 800px, url('../img/bgRC.png') no-repeat right 800px, #EEE
+    background: #EEE
+  .section
+    padding: 0 20px
+
+  .we
+    padding-top: 70px
+    background: url("../img/we/bg.png") no-repeat left top
+    &__title
+      max-width: 400px
+      margin: 0 auto 45px
 
   .main
+    padding: 0 10px
+    margin-bottom: 0
     &__wrap
       padding: 100px 10px 270px
       background: url("../img/main/bgM.png") no-repeat right bottom, url("../img/main/logo.png") no-repeat left calc(100% - 50px)
