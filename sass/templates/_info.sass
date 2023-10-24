@@ -1,0 +1,110 @@
+.info
+  &__title
+    margin-bottom: 60px
+  &__window
+    overflow: hidden
+    margin-bottom: 20px
+  &__field
+    display: flex
+    margin: auto
+    width: min-content
+    transition: 0.3s
+    gap: 20px
+    padding: 5px 0
+  &__interface
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__dots
+    display: flex
+    gap: 5px
+  &__dot
+    width: 15px
+    height: 15px
+    border-radius: 50%
+    background: #303030
+    opacity: 0.5
+    &--active
+      background: #0F3E84
+      opacity: 1
+  &__arrow
+    cursor: pointer
+    overflow: hidden
+    height: 24px
+    width: 80px
+    position: relative
+    svg
+      position: absolute
+      left: 0
+      top: 50%
+      transform: translateY(-50%)
+    &--next
+      svg
+        left: auto
+        right: 0
+    &--inactive
+      path
+        fill: #303030
+        fill-opacity: 0.5
+  &__card
+    width: 507px
+    height: 306px
+    border-radius: 20px
+    background: #F6F6F6
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.25)
+    overflow: hidden
+    margin-bottom: 30px
+    &:last-child
+      margin-bottom: 0
+    &__header
+      display: flex
+      padding: 10px 20px
+      background: #fff
+      position: relative
+      margin-bottom: 25px
+      gap: 25px
+      align-items: center
+      &::after
+        content: ''
+        position: absolute
+        height: 2px
+        width: 100%
+        left: 0
+        bottom: 0
+        background: linear-gradient(to right, transparent 2%, #FFEB6C 50%, transparent 98%)
+    &__content
+      height: 120px
+      overflow: hidden
+      padding: 0 20px
+      position: relative
+      margin-bottom: 20px
+      &::after
+        content: ''
+        position: absolute
+        background: linear-gradient(to top, #F6F6F6, transparent)
+        left: 0
+        top: 0
+        right: 0
+        bottom: 0
+    &__footer
+      padding: 0 20px
+      color: #0F3E84
+      font-style: normal
+      font-weight: 400
+      line-height: normal
+      text-decoration-line: underline
+      cursor: pointer
+    &__img
+      min-width: 60px
+      width: 60px
+      height: 60px
+      display: flex
+      align-items: center
+      justify-content: center
+    &__title
+      color: #0F3E84
+      font-family: 'Calama', sans-serif
+      font-size: 55px
+      font-style: normal
+      font-weight: 300
+      line-height: normal

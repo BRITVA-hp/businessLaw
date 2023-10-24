@@ -315,12 +315,27 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   slider({
-    windowSelector: '.reviews__window',
-    fieldSelector: '.reviews__field',
-    cardSelector: '.reviews__card',
-    buttonPrevSelector: '.reviews__arrow--prev',
-    buttonNextSelector: '.reviews__arrow--next',
-    buttonInactiveClass: 'reviews__arrow--inactive'
+    windowSelector: '.spec__window',
+    fieldSelector: '.spec__field',
+    cardSelector: '.spec__card',
+    buttonPrevSelector: '.spec__arrow--prev',
+    buttonNextSelector: '.spec__arrow--next',
+    buttonInactiveClass: 'spec__arrow--inactive',
+    dotsWrapSelector: '.spec__dots',
+    dotClass: 'spec__dot',
+    dotActiveClass: 'spec__dot--active'
+  });
+
+  slider({
+    windowSelector: '.info__window',
+    fieldSelector: '.info__field',
+    cardSelector: '.info__card-wrap',
+    buttonPrevSelector: '.info__arrow--prev',
+    buttonNextSelector: '.info__arrow--next',
+    buttonInactiveClass: 'info__arrow--inactive',
+    dotsWrapSelector: '.info__dots',
+    dotClass: 'info__dot',
+    dotActiveClass: 'info__dot--active'
   });
 
 })

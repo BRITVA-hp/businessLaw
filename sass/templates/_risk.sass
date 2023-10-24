@@ -1,0 +1,54 @@
+.risk
+  &__container
+    padding-top: 140px
+    background: url("../img/risk/bg.png") no-repeat right top
+  &__title
+    margin-bottom: 40px
+  &__subtitle
+    font-size: 30px
+    font-style: normal
+    font-weight: 400
+    line-height: normal
+    margin-bottom: 60px
+    max-width: 640px
+  &__row
+    display: flex
+    gap: 20px
+    align-items: stretch
+  &__button
+    width: 100%
+    margin-top: 25px
+    display: none
+    &--2
+      display: block
+  &__card-wrap
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  &__card
+    border-radius: 20px
+    background: #F6F6F6
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.25)
+    overflow: hidden
+    height: 100%
+    &__content
+      padding: 30px 20px 40px 40px
+    &__header
+      color: #0F3E84
+      font-family: 'Calama', sans-serif
+      font-size: 55px
+      font-style: normal
+      font-weight: 300
+      line-height: normal
+      text-align: center
+      background: #fff
+      position: relative
+      padding: 12px 20px
+      &::after
+        content: ''
+        position: absolute
+        height: 2px
+        width: 100%
+        left: 0
+        bottom: 0
+        background: linear-gradient(to right, transparent 2%, #FFEB6C 50%, transparent 98%)
