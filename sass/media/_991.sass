@@ -2,13 +2,161 @@
   .button
     padding: 15px 0
     font-size: 16px
+    border-radius: 10px
   .container
     max-width: 800px
   .section
     &__title
       font-size: 45px
+  .politics
+    &__text
+      font-size: 12px
+      max-width: 190px
+      line-height: 100%
+  .tel
+    display: flex
+
+  .footer
+    &__tel
+      display: none
+    &__row
+      flex-direction: column
+      align-items: center
+      gap: 50px
+      margin-bottom: 50px
+    &__text
+      font-size: 16px
+      br
+        display: inline-block
+    &__nav
+      flex-direction: column
+      text-align: center
+      gap: 15px
+    &__link
+      padding: 0
+      &::after
+        display: none
+
+  .question
+    margin-bottom: 70px
+    &__block
+      border-radius: 15px
+      margin-bottom: 20px
+      padding: 30px 20px
+    &__title
+      margin-bottom: 25px
+    &__text
+      font-size: 20px
+    &__input-group
+      margin-bottom: 10px
+    &__button
+      margin: 10px 0 10px
+    &__form
+      max-width: 400px
+    &__input
+      border-radius: 10px
+      padding: 15px 20px
+      font-size: 16px
+
+  .partners
+    margin-bottom: 70px
+    &__title
+      margin-bottom: 40px
+    &__container
+      padding-top: 70px
+      background: url("../img/partners/bgM.png") no-repeat calc(50% - 70px) 18px
+    &__card
+      width: 355px
+      border-radius: 10px
+      &__header
+        text-align: center
+        padding: 8px 20px
+        font-size: 40px
+      &__content
+        padding: 20px 10px
+      &__text, &__li
+        font-size: 16px
+    &__arrow
+      width: 46px
+
+  .open
+    &__ol
+      margin-bottom: 0
+    &__box
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+    &__li
+      font-size: 16px
+      margin-bottom: 20px
+    &__button
+      padding: 0 20px
+      height: 50px
+      width: 100%
+      max-width: 335px
+    &__title
+      margin: 0 auto 45px
+      max-width: 335px
+    &__container
+      padding-top: 70px
+      background: url("../img/open/bgM.png") no-repeat center 20px
+
+  .advantages
+    &__box
+      gap: 15px
+    &__button
+      width: auto
+      padding: 15px
+    &__container
+      padding: 30px
+      background: url('../img/advantages/imgC.png') no-repeat calc(100% + 150px) center, #E5E5E5
+    &__card
+      gap: 16px
+      width: 315px
+      &__text
+        font-size: 16px
+      &__img
+        width: 60px
+        min-width: 60px
+        height: 60px
+        border-radius: 10px
+        img
+          width: 55px
+
+  .modal
+    &-info
+      &__close
+        top: 20px
+        right: 20px
+      &__dialog
+        border-radius: 10px
+        padding: 85px 10px 50px
+        max-width: 355px
+      &__title
+        font-size: 45px
+        margin-bottom: 35px
+      &__text
+        font-size: 16px
+    &__dialog
+      max-width: 355px
+      padding: 90px 10px
+      border-radius: 10px
+    &__close
+      top: 25px
+      right: 25px
+    &__title
+      font-size: 45px
+      margin-bottom: 40px
+    &__input
+      padding: 15px 20px
+      font-size: 16px
+    &__input-group
+      margin-bottom: 10px
+      &--last
+        margin-bottom: 30px
 
   .info
+    margin-bottom: 70px
     &__arrow
       width: 46px
     &__title

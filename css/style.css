@@ -18,6 +18,13 @@
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: "Moniqa";
+  src: url("../fonts/Moniqa/Moniqa-LightHeading.woff") format("woff"), url("../fonts/Moniqa/Moniqa-LightHeading.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -417,7 +424,7 @@ body {
 
 .politics {
   display: flex;
-  gap: 5px;
+  gap: 10px;
   cursor: pointer;
   justify-content: center;
 }
@@ -436,7 +443,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 150%;
 }
 .politics__ok {
   min-width: 26px;
@@ -457,6 +464,22 @@ body {
   height: 3px;
   width: 100%;
   background: linear-gradient(90deg, rgba(255, 235, 112, 0) 0%, #FFEB70 44.53%, rgba(255, 235, 112, 0) 100%);
+}
+
+.tel {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  background: #FFEB6C;
+}
+.tel img {
+  width: 36px;
 }
 
 .section {
@@ -501,132 +524,132 @@ body {
 }
 @keyframes noise-anim {
   0% {
-    clip: rect(89px, 9999px, 7px, 0);
+    clip: rect(25px, 9999px, 24px, 0);
   }
   5% {
-    clip: rect(52px, 9999px, 49px, 0);
+    clip: rect(78px, 9999px, 36px, 0);
   }
   10% {
-    clip: rect(4px, 9999px, 73px, 0);
+    clip: rect(41px, 9999px, 3px, 0);
   }
   15% {
-    clip: rect(83px, 9999px, 50px, 0);
+    clip: rect(33px, 9999px, 91px, 0);
   }
   20% {
-    clip: rect(74px, 9999px, 21px, 0);
+    clip: rect(8px, 9999px, 57px, 0);
   }
   25% {
-    clip: rect(76px, 9999px, 8px, 0);
+    clip: rect(58px, 9999px, 56px, 0);
   }
   30% {
-    clip: rect(70px, 9999px, 94px, 0);
+    clip: rect(83px, 9999px, 26px, 0);
   }
   35% {
-    clip: rect(41px, 9999px, 83px, 0);
+    clip: rect(53px, 9999px, 23px, 0);
   }
   40% {
-    clip: rect(58px, 9999px, 7px, 0);
+    clip: rect(56px, 9999px, 3px, 0);
   }
   45% {
-    clip: rect(100px, 9999px, 92px, 0);
+    clip: rect(93px, 9999px, 25px, 0);
   }
   50% {
-    clip: rect(17px, 9999px, 83px, 0);
+    clip: rect(40px, 9999px, 62px, 0);
   }
   55% {
-    clip: rect(79px, 9999px, 85px, 0);
+    clip: rect(2px, 9999px, 66px, 0);
   }
   60% {
-    clip: rect(78px, 9999px, 11px, 0);
+    clip: rect(20px, 9999px, 80px, 0);
   }
   65% {
-    clip: rect(97px, 9999px, 18px, 0);
+    clip: rect(50px, 9999px, 40px, 0);
   }
   70% {
-    clip: rect(80px, 9999px, 49px, 0);
+    clip: rect(96px, 9999px, 45px, 0);
   }
   75% {
-    clip: rect(72px, 9999px, 26px, 0);
+    clip: rect(76px, 9999px, 50px, 0);
   }
   80% {
-    clip: rect(9px, 9999px, 56px, 0);
+    clip: rect(86px, 9999px, 52px, 0);
   }
   85% {
-    clip: rect(93px, 9999px, 55px, 0);
+    clip: rect(95px, 9999px, 90px, 0);
   }
   90% {
-    clip: rect(29px, 9999px, 17px, 0);
+    clip: rect(74px, 9999px, 57px, 0);
   }
   95% {
-    clip: rect(87px, 9999px, 3px, 0);
+    clip: rect(100px, 9999px, 87px, 0);
   }
   100% {
-    clip: rect(9px, 9999px, 54px, 0);
+    clip: rect(41px, 9999px, 7px, 0);
   }
 }
 @keyframes noise-anim-2 {
   0% {
-    clip: rect(49px, 9999px, 85px, 0);
+    clip: rect(68px, 9999px, 36px, 0);
   }
   5% {
-    clip: rect(8px, 9999px, 19px, 0);
+    clip: rect(5px, 9999px, 35px, 0);
   }
   10% {
-    clip: rect(81px, 9999px, 44px, 0);
+    clip: rect(75px, 9999px, 74px, 0);
   }
   15% {
-    clip: rect(90px, 9999px, 65px, 0);
+    clip: rect(66px, 9999px, 80px, 0);
   }
   20% {
-    clip: rect(25px, 9999px, 37px, 0);
+    clip: rect(47px, 9999px, 39px, 0);
   }
   25% {
-    clip: rect(11px, 9999px, 74px, 0);
+    clip: rect(85px, 9999px, 41px, 0);
   }
   30% {
-    clip: rect(67px, 9999px, 26px, 0);
+    clip: rect(44px, 9999px, 1px, 0);
   }
   35% {
-    clip: rect(78px, 9999px, 24px, 0);
+    clip: rect(39px, 9999px, 68px, 0);
   }
   40% {
-    clip: rect(69px, 9999px, 17px, 0);
+    clip: rect(95px, 9999px, 29px, 0);
   }
   45% {
-    clip: rect(95px, 9999px, 58px, 0);
+    clip: rect(19px, 9999px, 100px, 0);
   }
   50% {
-    clip: rect(69px, 9999px, 76px, 0);
+    clip: rect(95px, 9999px, 51px, 0);
   }
   55% {
-    clip: rect(93px, 9999px, 7px, 0);
+    clip: rect(92px, 9999px, 24px, 0);
   }
   60% {
-    clip: rect(82px, 9999px, 49px, 0);
+    clip: rect(8px, 9999px, 10px, 0);
   }
   65% {
-    clip: rect(79px, 9999px, 35px, 0);
+    clip: rect(94px, 9999px, 69px, 0);
   }
   70% {
-    clip: rect(13px, 9999px, 15px, 0);
+    clip: rect(60px, 9999px, 79px, 0);
   }
   75% {
-    clip: rect(25px, 9999px, 1px, 0);
+    clip: rect(76px, 9999px, 28px, 0);
   }
   80% {
-    clip: rect(92px, 9999px, 43px, 0);
+    clip: rect(73px, 9999px, 27px, 0);
   }
   85% {
-    clip: rect(57px, 9999px, 88px, 0);
+    clip: rect(24px, 9999px, 26px, 0);
   }
   90% {
-    clip: rect(88px, 9999px, 86px, 0);
+    clip: rect(56px, 9999px, 30px, 0);
   }
   95% {
-    clip: rect(97px, 9999px, 43px, 0);
+    clip: rect(74px, 9999px, 97px, 0);
   }
   100% {
-    clip: rect(21px, 9999px, 33px, 0);
+    clip: rect(5px, 9999px, 76px, 0);
   }
 }
 .header {
@@ -961,6 +984,9 @@ body {
   opacity: 1;
 }
 
+.info {
+  margin-bottom: 140px;
+}
 .info__title {
   margin-bottom: 60px;
 }
@@ -1091,6 +1117,282 @@ body {
   line-height: normal;
 }
 
+.advantages__container {
+  border-radius: 20px;
+  background: url("../img/advantages/img.png") no-repeat left center, #E5E5E5;
+  max-width: 1700px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 418px;
+  padding: 20px 80px;
+}
+.advantages__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 50px;
+  max-width: 790px;
+  margin-bottom: 55px;
+}
+.advantages__button {
+  width: 506px;
+}
+.advantages__card {
+  display: flex;
+  align-items: center;
+  width: 370px;
+  gap: 20px;
+}
+.advantages__card__img {
+  width: 80px;
+  min-width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.open__container {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background: url("../img/open/bg.png") no-repeat calc(100% - 150px) -50px;
+}
+.open__title {
+  margin-bottom: 60px;
+}
+.open__row {
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+}
+.open__box {
+  max-width: 600px;
+}
+.open__li {
+  margin-bottom: 30px;
+}
+.open__li:last-child {
+  margin-bottom: 0;
+}
+.open__ol {
+  margin-bottom: 60px;
+  padding-left: 25px;
+}
+.open__button {
+  padding: 18px 40px;
+  width: auto;
+}
+.open__button--m {
+  display: none;
+}
+
+.partners {
+  margin-bottom: 140px;
+}
+.partners__title {
+  margin-bottom: 60px;
+}
+.partners__window {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.partners__field {
+  display: flex;
+  gap: 20px;
+  width: -moz-min-content;
+  width: min-content;
+  transition: 0.3s;
+  margin: auto;
+  padding: 5px 0;
+}
+.partners__interface {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.partners__arrow {
+  cursor: pointer;
+  overflow: hidden;
+  height: 24px;
+  width: 80px;
+  position: relative;
+}
+.partners__arrow svg {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.partners__arrow--next svg {
+  left: auto;
+  right: 0;
+}
+.partners__arrow--inactive path {
+  fill: #303030;
+  fill-opacity: 0.5;
+}
+.partners__dots {
+  display: flex;
+  gap: 5px;
+}
+.partners__dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #303030;
+  opacity: 0.5;
+}
+.partners__dot--active {
+  background: #0F3E84;
+  opacity: 1;
+}
+.partners__card {
+  width: 507px;
+  border-radius: 20px;
+  background: #F6F6F6;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.partners__card__content {
+  padding: 20px;
+}
+.partners__card__ul {
+  padding-left: 25px;
+}
+.partners__card__li {
+  margin-bottom: 25px;
+}
+.partners__card__li:last-child {
+  margin-bottom: 0;
+}
+.partners__card__title {
+  color: #0F3E84;
+  font-family: "Calama", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 25px 0 10px;
+}
+.partners__card__header {
+  background: #FFF;
+  position: relative;
+  padding: 20px 20px 15px;
+  color: #0F3E84;
+  font-family: "Moniqa", sans-serif;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.partners__card__header::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(to right, transparent 2%, #FFEB6C 50%, transparent 98%);
+}
+
+.question {
+  margin-bottom: 140px;
+}
+.question__container {
+  background: url("../img/question/img.png") no-repeat right center;
+}
+.question__title {
+  margin-bottom: 40px;
+}
+.question__text {
+  font-size: 30px;
+  font-style: normal;
+  line-height: normal;
+  max-width: 770px;
+}
+.question__block {
+  margin-bottom: 60px;
+}
+.question__form {
+  max-width: 507px;
+}
+.question__input-group {
+  margin-bottom: 20px;
+}
+.question__button {
+  width: 100%;
+  margin: 15px 0 10px;
+}
+.question__input {
+  border: 2px solid #0F3E84;
+}
+
+.footer {
+  padding-bottom: 46px;
+}
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 30px;
+}
+.footer__nav {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+}
+.footer__tel {
+  width: 70px;
+  min-width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFEB6C;
+}
+.footer__text {
+  text-align: center;
+}
+.footer__text a {
+  color: #303030;
+}
+.footer__text br {
+  display: none;
+}
+.footer__link {
+  color: #303030;
+  text-decoration: none;
+  padding-right: 27px;
+  position: relative;
+}
+.footer__link:last-child {
+  padding: 0;
+}
+.footer__link:last-child::after {
+  display: none;
+}
+.footer__link::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  background: #303030;
+  right: 0;
+  top: 3px;
+  transform: rotate(15deg);
+  transform-origin: right top;
+}
+.footer__link:hover {
+  text-decoration: underline;
+}
+.footer__logo {
+  gap: 20px;
+}
+
 .modal {
   position: fixed;
   z-index: 199;
@@ -1120,6 +1422,68 @@ body {
   min-height: 100%;
   justify-content: center;
   padding: 20px;
+}
+.modal__dialog {
+  border-radius: 20px;
+  background: #E5E5E5;
+  padding: 90px 20px 100px;
+  width: 100%;
+  max-width: 1034px;
+  position: relative;
+}
+.modal__title {
+  color: #0F3E84;
+  text-align: center;
+  font-family: "Calama", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+.modal__input-group {
+  margin: 0 auto 20px;
+  max-width: 500px;
+}
+.modal__input-group--last {
+  margin-bottom: 35px;
+}
+.modal__button {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 10px;
+}
+.modal__close {
+  position: absolute;
+  right: 38px;
+  top: 38px;
+  cursor: pointer;
+}
+.modal-info__dialog {
+  max-width: 1300px;
+  padding: 100px 111px;
+  border-radius: 20px;
+  background: #E5E5E5;
+  text-align: center;
+  position: relative;
+}
+.modal-info__close {
+  position: absolute;
+  right: 46px;
+  top: 46px;
+  cursor: pointer;
+}
+.modal-info__title {
+  color: #0F3E84;
+  text-align: center;
+  font-family: "Calama", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 40px;
 }
 
 .menu {
@@ -1287,6 +1651,24 @@ body {
   animation: noise-anim 2s infinite linear alternate-reverse;
 }
 
+@media screen and (max-width: 1600px) {
+  .advantages__container {
+    height: auto;
+    justify-content: flex-start;
+    background: url("../img/advantages/imgC.png") no-repeat right center, #E5E5E5;
+    padding: 50px 70px;
+  }
+  .advantages__row {
+    flex-direction: column;
+    gap: 40px;
+    margin: 0;
+  }
+  .advantages__box {
+    display: flex;
+    align-items: flex-end;
+    gap: 50px;
+  }
+}
 @media screen and (max-width: 1440px) {
   body {
     background: url("../img/bgLC.png") no-repeat left 200px, url("../img/bgRC.png") no-repeat right 200px, #EEE;
@@ -1305,6 +1687,169 @@ body {
   }
   .section__title {
     font-size: 60px;
+  }
+  .footer {
+    padding-bottom: 35px;
+  }
+  .footer__row {
+    flex-wrap: wrap;
+  }
+  .footer__nav {
+    margin: 0;
+    order: 3;
+    width: 100%;
+    justify-content: center;
+  }
+  .footer__logo {
+    gap: 15px;
+  }
+  .footer__logo img:first-child {
+    width: 100px;
+  }
+  .footer__logo img:last-child {
+    width: 120px;
+  }
+  .footer__tel {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+  }
+  .footer__tel img {
+    width: 36px;
+  }
+  .footer__link, .footer__text {
+    font-size: 18px;
+  }
+  .question {
+    margin-bottom: 110px;
+  }
+  .question__input-group {
+    margin-bottom: 15px;
+  }
+  .question__container {
+    background: none;
+  }
+  .question__form {
+    margin: auto;
+  }
+  .question__title {
+    margin-bottom: 35px;
+  }
+  .question__text {
+    margin: auto;
+    font-size: 26px;
+  }
+  .question__block {
+    margin-bottom: 35px;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .partners {
+    margin-bottom: 110px;
+  }
+  .partners__container {
+    padding-top: 110px;
+    background: url("../img/partners/bg.png") no-repeat center 30px;
+  }
+  .partners__title {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .partners__card {
+    width: 360px;
+    border-radius: 15px;
+  }
+  .partners__card__title {
+    font-size: 28px;
+    margin: 20px 0 15px;
+  }
+  .partners__card__content {
+    padding: 20px 10px;
+  }
+  .partners__card__text, .partners__card__li {
+    font-size: 18px;
+  }
+  .partners__card__li {
+    margin-bottom: 20px;
+  }
+  .partners__card__header {
+    padding: 28px 20px;
+    font-size: 44px;
+  }
+  .partners__field {
+    gap: 15px;
+  }
+  .open__img img {
+    max-width: none;
+  }
+  .open__container {
+    background: none;
+    padding-top: 110px;
+    padding-bottom: 0;
+  }
+  .open__box {
+    max-width: 550px;
+  }
+  .open__row {
+    justify-content: center;
+  }
+  .open__title {
+    margin-bottom: 45px;
+    text-align: center;
+  }
+  .open__li {
+    font-size: 18px;
+  }
+  .open__button {
+    width: auto;
+    padding: 18px 35px;
+  }
+  .advantages__box {
+    gap: 20px;
+  }
+  .advantages__card__text {
+    font-size: 18px;
+  }
+  .advantages__button {
+    width: auto;
+    padding: 18px 50px;
+  }
+  .modal-info__dialog {
+    max-width: 832px;
+    padding: 90px 80px;
+    border-radius: 15px;
+  }
+  .modal-info__close {
+    top: 40px;
+    right: 40px;
+  }
+  .modal-info__title {
+    font-size: 60px;
+    margin-bottom: 40px;
+  }
+  .modal-info__text {
+    font-size: 18px;
+  }
+  .modal__dialog {
+    max-width: 832px;
+    padding: 90px 20px;
+  }
+  .modal__title {
+    font-size: 60px;
+    max-width: 500px;
+    margin-bottom: 45px;
+  }
+  .modal__input-group {
+    margin-bottom: 15px;
+  }
+  .modal__input-group--last {
+    margin-bottom: 35px;
+  }
+  .info {
+    margin-bottom: 110px;
   }
   .info__title {
     margin-bottom: 45px;
@@ -1502,12 +2047,198 @@ body {
   .button {
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
   }
   .container {
     max-width: 800px;
   }
   .section__title {
     font-size: 45px;
+  }
+  .politics__text {
+    font-size: 12px;
+    max-width: 190px;
+    line-height: 100%;
+  }
+  .tel {
+    display: flex;
+  }
+  .footer__tel {
+    display: none;
+  }
+  .footer__row {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+  .footer__text {
+    font-size: 16px;
+  }
+  .footer__text br {
+    display: inline-block;
+  }
+  .footer__nav {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+  .footer__link {
+    padding: 0;
+  }
+  .footer__link::after {
+    display: none;
+  }
+  .question {
+    margin-bottom: 70px;
+  }
+  .question__block {
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 30px 20px;
+  }
+  .question__title {
+    margin-bottom: 25px;
+  }
+  .question__text {
+    font-size: 20px;
+  }
+  .question__input-group {
+    margin-bottom: 10px;
+  }
+  .question__button {
+    margin: 10px 0 10px;
+  }
+  .question__form {
+    max-width: 400px;
+  }
+  .question__input {
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+  .partners {
+    margin-bottom: 70px;
+  }
+  .partners__title {
+    margin-bottom: 40px;
+  }
+  .partners__container {
+    padding-top: 70px;
+    background: url("../img/partners/bgM.png") no-repeat calc(50% - 70px) 18px;
+  }
+  .partners__card {
+    width: 355px;
+    border-radius: 10px;
+  }
+  .partners__card__header {
+    text-align: center;
+    padding: 8px 20px;
+    font-size: 40px;
+  }
+  .partners__card__content {
+    padding: 20px 10px;
+  }
+  .partners__card__text, .partners__card__li {
+    font-size: 16px;
+  }
+  .partners__arrow {
+    width: 46px;
+  }
+  .open__ol {
+    margin-bottom: 0;
+  }
+  .open__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .open__li {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .open__button {
+    padding: 0 20px;
+    height: 50px;
+    width: 100%;
+    max-width: 335px;
+  }
+  .open__title {
+    margin: 0 auto 45px;
+    max-width: 335px;
+  }
+  .open__container {
+    padding-top: 70px;
+    background: url("../img/open/bgM.png") no-repeat center 20px;
+  }
+  .advantages__box {
+    gap: 15px;
+  }
+  .advantages__button {
+    width: auto;
+    padding: 15px;
+  }
+  .advantages__container {
+    padding: 30px;
+    background: url("../img/advantages/imgC.png") no-repeat calc(100% + 150px) center, #E5E5E5;
+  }
+  .advantages__card {
+    gap: 16px;
+    width: 315px;
+  }
+  .advantages__card__text {
+    font-size: 16px;
+  }
+  .advantages__card__img {
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    border-radius: 10px;
+  }
+  .advantages__card__img img {
+    width: 55px;
+  }
+  .modal-info__close {
+    top: 20px;
+    right: 20px;
+  }
+  .modal-info__dialog {
+    border-radius: 10px;
+    padding: 85px 10px 50px;
+    max-width: 355px;
+  }
+  .modal-info__title {
+    font-size: 45px;
+    margin-bottom: 35px;
+  }
+  .modal-info__text {
+    font-size: 16px;
+  }
+  .modal__dialog {
+    max-width: 355px;
+    padding: 90px 10px;
+    border-radius: 10px;
+  }
+  .modal__close {
+    top: 25px;
+    right: 25px;
+  }
+  .modal__title {
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
+  .modal__input {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+  .modal__input-group {
+    margin-bottom: 10px;
+  }
+  .modal__input-group--last {
+    margin-bottom: 30px;
+  }
+  .info {
+    margin-bottom: 70px;
   }
   .info__arrow {
     width: 46px;
@@ -1675,6 +2406,48 @@ body {
   body {
     background: url("../img/bgLC.png") no-repeat left 200px, url("../img/bgRC.png") no-repeat right 600px, #EEE;
   }
+  .open__row {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .open__box {
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .open__button {
+    display: none;
+  }
+  .open__button--m {
+    display: block;
+  }
+  .open__ol {
+    max-width: 335px;
+  }
+  .open__img {
+    margin-bottom: 50px;
+  }
+  .open__img img {
+    max-width: 100%;
+  }
+  .advantages__container {
+    border-radius: 10px;
+    background: #E5E5E5;
+    justify-content: center;
+  }
+  .advantages__box {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .advantages__card {
+    width: auto;
+  }
+  .advantages__row {
+    max-width: 335px;
+  }
+  .advantages__button {
+    max-width: 335px;
+  }
   .we__img img {
     max-width: 100%;
   }
@@ -1713,6 +2486,44 @@ body {
   }
   .section {
     padding: 0 20px;
+  }
+  .tel {
+    right: 10px;
+    bottom: 10px;
+  }
+  .question {
+    padding: 0 10px;
+  }
+  .question__block {
+    padding: 30px 10px;
+  }
+  .partners {
+    padding: 70px 0 0;
+    background: url("../img/partners/bgM.png") no-repeat calc(50% - 70px) 18px;
+  }
+  .partners__container {
+    padding: 0;
+    background: none;
+  }
+  .partners__field {
+    padding: 5px 10px;
+  }
+  .partners__title {
+    padding: 0 20px;
+  }
+  .advantages {
+    padding: 0 10px;
+  }
+  .advantages__container {
+    padding: 30px 10px;
+  }
+  .open {
+    padding-top: 70px;
+    background: url("../img/open/bgM.png") no-repeat center 20px;
+  }
+  .open__container {
+    padding: 0;
+    background: none;
   }
   .info {
     padding: 0;

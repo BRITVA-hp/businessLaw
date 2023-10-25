@@ -1,4 +1,18 @@
-
+@media screen and (max-width: 1600px)
+  .advantages
+    &__container
+      height: auto
+      justify-content: flex-start
+      background: url('../img/advantages/imgC.png') no-repeat right center, #E5E5E5
+      padding: 50px 70px
+    &__row
+      flex-direction: column
+      gap: 40px
+      margin: 0
+    &__box
+      display: flex
+      align-items: flex-end
+      gap: 50px
 
 @import "1440"
 
@@ -12,6 +26,40 @@
 @media screen and (max-width: 767px)
   body
     background: url('../img/bgLC.png') no-repeat left 200px, url('../img/bgRC.png') no-repeat right 600px, #EEE
+
+  .open
+    &__row
+      flex-direction: column
+      align-items: center
+      gap: 0
+    &__box
+      align-items: center
+      margin-bottom: 30px
+    &__button
+      display: none
+      &--m
+        display: block
+    &__ol
+      max-width: 335px
+    &__img
+      margin-bottom: 50px
+      img
+        max-width: 100%
+
+  .advantages
+    &__container
+      border-radius: 10px
+      background: #E5E5E5
+      justify-content: center
+    &__box
+      flex-direction: column
+      gap: 25px
+    &__card
+      width: auto
+    &__row
+      max-width: 335px
+    &__button
+      max-width: 335px
 
   .we
     &__img
@@ -44,6 +92,37 @@
     background: #EEE
   .section
     padding: 0 20px
+  .tel
+    right: 10px
+    bottom: 10px
+
+  .question
+    padding: 0 10px
+    &__block
+      padding: 30px 10px
+
+  .partners
+    padding: 70px 0 0
+    background: url("../img/partners/bgM.png") no-repeat calc(50% - 70px) 18px
+    &__container
+      padding: 0
+      background: none
+    &__field
+      padding: 5px 10px
+    &__title
+      padding: 0 20px
+
+  .advantages
+    padding: 0 10px
+    &__container
+      padding: 30px 10px
+
+  .open
+    padding-top: 70px
+    background: url("../img/open/bgM.png") no-repeat center 20px
+    &__container
+      padding: 0
+      background: none
 
   .info
     padding: 0

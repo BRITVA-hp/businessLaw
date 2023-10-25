@@ -68,6 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   modal('.modal', 'modal--active', '[data-modal]', '.modal__close');
+  modal('.modal-info', 'modal--active', '[data-modal-info]', '.modal-info__close');
 
   //slider
   function slider(settings) {
@@ -336,6 +337,18 @@ document.addEventListener('DOMContentLoaded', () => {
     dotsWrapSelector: '.info__dots',
     dotClass: 'info__dot',
     dotActiveClass: 'info__dot--active'
+  });
+
+  slider({
+    windowSelector: '.partners__window',
+    fieldSelector: '.partners__field',
+    cardSelector: '.partners__card',
+    buttonPrevSelector: '.partners__arrow--prev',
+    buttonNextSelector: '.partners__arrow--next',
+    buttonInactiveClass: 'partners__arrow--inactive',
+    dotsWrapSelector: '.partners__dots',
+    dotClass: 'partners__dot',
+    dotActiveClass: 'partners__dot--active'
   });
 
 })
